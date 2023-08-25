@@ -52,10 +52,6 @@ body {
   box-shadow: 0 0 30px 10px #0ab320;
 }
 
-.light {
-  box-shadow: 0 0 30px 10px #c78161;
-}
-
 button {
   font-weight: bold;
   font-size: 1.5rem;

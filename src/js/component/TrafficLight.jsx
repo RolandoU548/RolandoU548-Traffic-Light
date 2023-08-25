@@ -23,7 +23,7 @@ export const TrafficLight = () => {
           <div
             className={"luces " + (color === "rojo" ? "semaforo__rojo" : "")}
             onClick={() => {
-              setColor("rojo");
+              isAutomatic ? null : setColor("rojo");
             }}
           ></div>
           <div
@@ -31,13 +31,13 @@ export const TrafficLight = () => {
               "luces " + (color === "amarillo" ? "semaforo__amarillo" : "")
             }
             onClick={() => {
-              setColor("amarillo");
+              isAutomatic ? null : setColor("amarillo");
             }}
           ></div>
           <div
             className={"luces " + (color === "verde" ? "semaforo__verde" : "")}
             onClick={() => {
-              setColor("verde");
+              isAutomatic ? null : setColor("verde");
             }}
           ></div>
         </div>
