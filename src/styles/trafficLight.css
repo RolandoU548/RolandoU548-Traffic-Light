@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #53a4ea;
+  overflow-y: hidden;
+}
+
+.semaforo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px auto 0;
+  width: 15rem;
+  height: 28rem;
+  padding: 10px 0;
+  background: #151520;
+  border-radius: 5%;
+  border: 5px ridge gray;
+}
+
+.tubo {
+  margin: auto;
+  width: 3rem;
+  height: 6rem;
+  background: #151520;
+}
+
+.luces {
+  background: #101010;
+  border-top: 20px solid black;
+  width: 9.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+}
+
+.semaforo__rojo {
+  background: #ff0000;
+  box-shadow: 0 0 30px 10px #ff0000;
+}
+
+.semaforo__amarillo {
+  background: #ffff00;
+  box-shadow: 0 0 30px 10px #ffff00;
+}
+
+.semaforo__verde {
+  background: #0ab320;
+  box-shadow: 0 0 30px 10px #0ab320;
+}
+
+.light {
+  box-shadow: 0 0 30px 10px #c78161;
+}
+
+button {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  background: rgb(0, 89, 255);
+  top: 40%;
+  right: 10%;
+  padding: 10px;
+}
