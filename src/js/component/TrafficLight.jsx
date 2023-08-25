@@ -44,7 +44,10 @@ export const TrafficLight = () => {
         <div className="tubo"></div>
       </div>
       <div className="col-lg-4 col-12 d-flex justify-content-center align-items-center">
-        <button onClick={() => setIsAutomatic(!isAutomatic)}>
+        <button
+          className={isAutomatic ? "traficoAutomatico" : ""}
+          onClick={() => setIsAutomatic(!isAutomatic)}
+        >
           TRÁFICO AUTOMÁTICO
         </button>
       </div>
